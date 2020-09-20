@@ -20,9 +20,19 @@ import matplotlib.ticker as ticker
 
 
 class WorkshopAnalysis():
+    """ 
+    Read, analyse and plot all the data collected from questionnaires at
+    LU coding workshops.
+    
+    Procedure:
+        Instantiate with no arguments e.g. workshops = WorkshopAnalysis().
+        Run the "read_datafile" method e.g. workshops.read_datafile(path_to_data, path_to_figures).
+        Run the "gender", "age_distribution" and "app_ratings" methods separately.
+        Run the "question" method for each other question in the questionnaire with appropriate args.
 
-    def __init__(self, dataframe):
-        self.dataframe = dataframe
+    """
+
+    def __init__(self):
         self.response_dict = {
             'yes_dontknow_no': (['yes', 'dontknow', 'no'], 3,
                                 ['Yes', 'Dont Know', 'No']),
@@ -41,7 +51,33 @@ class WorkshopAnalysis():
             'never_little_lot': (['No', 'Alittle', 'Alot'], 3,
                                 ['Never', 'A little', 'A lot']),
             }
+    def read_datafiles(self, data_filepath, save_filepath):
+        """
+        Read the data files for each workshop event and build a dataframe of all
+        the collated data.
 
+        Parameters
+        ----------
+        data_filepath : str
+            The path to the directory containing the data files.
+        save_filepath : str
+            The path to directory where figures are to saved.
+
+        Returns
+        -------
+        Pandas dataframe and some meta data. 
+
+        """
+        self.data_filepath = data_filepath
+        self.save_filepath = save_filepath
+        filenames = glob(self.data_filepath+'/*.csv')
+        self.dataframe = pd.concat([pd.read_csv(datafile) for datafile in filenames], ignore_index=True)
+        districts = sorted([datafile.split('/')[1][:-4] for datafile in filenames])
+        self.total_participants = self.dataframe.count().iloc[1:].max()
+        print(f'\nThe following workshop data files have been read and included:\n\n{districts}\n')
+        print(f'If you expect to see another file here, please check you have added it to the location "{self.data_filepath}"')
+        print(f'\nTotal number of participants to date: {self.total_participants}.\n\n')
+        #print(f'Gender details:\n{df.Gender.value_counts()}')
 
     def question(self, question, response_type, prepost_question, title):
         """
@@ -162,7 +198,7 @@ class WorkshopAnalysis():
                 if percent >= 10:
                     plt.annotate(f'{str(percent)} %', xy=(xpos, ind[k]),
                                  ha='center', fontsize=15, color='1')
-                elif percent<3:
+                elif percent < 3:
                     pass
                 else:
                     plt.annotate(f'{str(percent)}', xy=(xpos, ind[k]),
@@ -179,8 +215,8 @@ class WorkshopAnalysis():
         plt.legend(bbox_to_anchor=(0, 0.99, 1, .05), loc=3, ncol=legend_columns, borderaxespad=0, fontsize=15)
         plt.minorticks_on()
         plt.figtext(0.9, 0.135, (f'Based on sample of {samplesize} participants'), fontsize=10, ha='right')
-        plt.savefig(plotpath+'bar_'+figurename+'.pdf', bbox_inches='tight')
-        plt.savefig(plotpath+'bar_'+figurename+'.png', bbox_inches='tight', dpi=600)
+        plt.savefig(self.save_filepath+'bar_'+figurename+'.pdf', bbox_inches='tight')
+        plt.savefig(self.save_filepath+'bar_'+figurename+'.png', bbox_inches='tight', dpi=600)
         sns.set()
 
 
@@ -193,6 +229,7 @@ class WorkshopAnalysis():
         Saves the figure to pdf and png files. 
 
         """
+        print("Plotting the app ratings plots..")
         plt.close()
         fig = plt.figure(figsize=(8, 10))
         (ax1, ax2), (ax3, ax4), (ax5, ax6), (ax7, ax8) = fig.subplots(4, 2, sharex=True)
@@ -219,8 +256,9 @@ class WorkshopAnalysis():
         ax7.set_xlabel('Rating /5', fontsize=20)
         ax8.set_xlabel('Rating /5', fontsize=20)
         ax3.set_ylabel('Number of Participants',  fontsize=20)
-        plt.savefig(plotpath+'AppRatings.png', bbox_inches='tight')
-        plt.savefig(plotpath+'AppRatings.pdf', bbox_inches='tight')
+        plt.savefig(self.save_filepath+'AppRatings.png', bbox_inches='tight')
+        plt.savefig(self.save_filepath+'AppRatings.pdf', bbox_inches='tight')
+        sns.set()
     
     
     def age_distribution(self, age):
@@ -248,7 +286,7 @@ class WorkshopAnalysis():
         median_age = int(self.age.median())
         print(f'\nMean age: {round(self.age.mean(),1)}, and median age: {median_age}.\n')
         values, base = np.histogram(self.age, bins=bins)
-        percent = 100*(values/total_participants)
+        percent = 100*(values/self.total_participants)
         plt.hist(self.age, bins=bins, facecolor='none', 
                  linewidth=2.5, edgecolor='#3366cc')
         for i in range(len(values)):
@@ -261,37 +299,49 @@ class WorkshopAnalysis():
                   color='k', fontweight='bold',
                   va='center', ha = 'left', 
                   fontsize = 12) for ypos, text in zip([0.98, 0.9], 
-                                                       [f'Participant Total: {str(total_participants)}', 
+                                                       [f'Participant Total: {str(self.total_participants)}', 
                                                         f'Median age: {median_age} yrs'])]
         plt.xlabel('Age of participant (years)', fontsize = 20)
         plt.ylabel('Number of participants', fontsize = 20)
         plt.xlim(6.4, 18.6)
         plt.ylim(0, 1.1*np.max(values))
         ax.xaxis.set_major_locator(plt.MaxNLocator(14))
-        plt.savefig(plotpath+'AgeDistribution.png', bbox_inches='tight', dpi=600)
-        plt.savefig(plotpath+'AgeDistribution.pdf', bbox_inches='tight')
+        plt.savefig(self.save_filepath+'AgeDistribution.png', bbox_inches='tight', dpi=600)
+        plt.savefig(self.save_filepath+'AgeDistribution.pdf', bbox_inches='tight')
         sns.set()
 
+    def gender(self, gender_column):
+        """
+        Create pie chart showing the gender distribution. 
 
-filepath = 'WorkshopData'
-filenames = glob(filepath+'/*.csv')
+        Returns
+        -------
+        Saves figure to png and pdf files.
 
-df = pd.concat([pd.read_csv(datafile) for datafile in filenames], ignore_index=True)
+        """
+        print("Plotting the gender pie chart..")
+        plt.close()
+        sizes = [self.dataframe[gender_column].value_counts().loc[gender] for gender in ['male', 'female']]
+        colors = [sns.xkcd_rgb['grey'], sns.xkcd_rgb['cerulean blue']]
+        labels = ['Male', 'Female']
+        plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%',
+                shadow=True, startangle=140, radius=0.8, 
+                textprops=dict(fontsize=15))
+        others = self.dataframe.Gender.value_counts(sort=True).values[2]
+        plt.text(-0.5, -0.95, f'(Plus {others} participants answered "Other")', fontsize=9)
+        plt.axis('equal')
+        plt.savefig(self.save_filepath+'gender.pdf', bbox_inches='tight')
+        plt.title('Gender of participants', fontsize=15)
+        plt.savefig(self.save_filepath+'gender.png', bbox_inches='tight')
 
-districts = sorted([datafile.split('/')[1][:-4] for datafile in filenames])
-
-total_participants = df.Age.count()
-print(f'\nThe following workshop data files have been read and included:\n{districts}\nIf you expect to see another file here, please check you have added it to the location {filepath}')
-print(f'\nTotal number of participants to date: {total_participants}.\n')
-print(f'Gender details:\n{df.Gender.value_counts()}')
-
-plotpath = 'testing/'
-
-workshops = WorkshopAnalysis(df)
-
-workshops.app_ratings()
+workshops = WorkshopAnalysis()
+workshops.read_datafiles(data_filepath='WorkshopData', save_filepath='testing/')
+#%%
+workshops.gender('Gender')
 
 workshops.age_distribution('Age')
+
+workshops.app_ratings()
 
 workshops.question(question='CodingInterest', 
               response_type='very_to_not_interest', 
