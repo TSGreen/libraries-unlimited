@@ -33,12 +33,19 @@ while not valid:
         
 valid = False
 while not valid:
-    precancode = input('Q3: Do you believe you can do programming?\nEnter: y (=Yes), n (=No), dk (=DontKnow):\n\n')
-    if precancode == 'y' or precancode == 'n' or precancode == 'dk':
+    response = input('Q3: Do you believe you can do programming?\nEnter: y (=Yes), n (=No), dk (=DontKnow):\n\n')
+    if response == 'y':
+        response  = 'yes'
+        valid = True
+    elif response  == 'dk':
+        response  = 'dontknow'
+        valid = True
+    elif response  == 'n':
+        response  = 'no'
         valid = True
     else:
         print('Invalid entry. Please try again')
-
+    precancode = response
 
 valid = False
 while not valid:
@@ -168,11 +175,19 @@ print('\n\nTurn sheet over and enter post-session feedback answers:\n')
 
 valid = False    
 while not valid:
-    candocoding = input('Q10: Now, do you believe you can do programming?\nEnter: y (=Yes), n (=No), dk (=DontKnow):\n\n')
-    if candocoding == 'y' or candocoding == 'n' or candocoding == 'dk':
+    response = input('Q10: Do you believe you can do programming?\nEnter: y (=Yes), n (=No), dk (=DontKnow):\n\n')
+    if response == 'y':
+        response  = 'yes'
+        valid = True
+    elif response  == 'dk':
+        response  = 'dontknow'
+        valid = True
+    elif response  == 'n':
+        response  = 'no'
         valid = True
     else:
         print('Invalid entry. Please try again')
+    candocoding = response
 
 valid = False
 while valid == False:
