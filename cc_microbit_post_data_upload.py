@@ -3,34 +3,28 @@ import pandas as pd
 import os
 from pathlib import Path
 
-district = 'test'
+district = 'dhaka'
+coursequestionnaire = 'microbit'
 
-savefile = Path.cwd().joinpath('data', 'codeclubs', district+'_microbit_post.csv')
+savefile = Path.cwd().joinpath('data', 'codeclubs', district+'_'+coursequestionnaire+'_post.csv')
 
 print(f"File will be saved to {savefile}")
 
 notatall_to_very = '\n1 (="Not at all")\n2 (="Not Much")\n3 (="Unsure")\n4 (="A Little")\n5 (="Very")\n\n'
-never_to_veryregularly = '\n1 (="Never")\n2 (="Rarely")\n3 (="Sometimes")\n4 (="Regularly")\n5 (="Very Regularly")\n\n'  
 yes_no_dontknow = '\nEnter: y (=Yes), n (=No), dk (=DontKnow):\n\n'
 
-def yesnodk_question(question):
-    valid = False
+def yesnodk_question(question, response_map={'y': 'yes', 'n': 'no', 'dk': 'dontnow'}, valid=False):
     while not valid:
         response = input(f'{question}{yes_no_dontknow}')
-        if response == 'y':
-            response = 'yes'
-            valid = True
-        elif response == 'dk':
-            response = 'dontknow'
-            valid = True
-        elif response == 'n':
-            response = 'no'
+        if response in ['y', 'n', 'dk']:
+            response = response_map[response]
             valid = True
         else:
             print('===============================')
             print('Invalid entry. Please try again')
             print('===============================')
     return response
+
 
 def notatall_to_very_question(question):
     valid = False
@@ -119,12 +113,12 @@ hardware = yesnodk_question('Q15: Understand what is hardware?')
 new_data = np.array([courses, postcancode, postcodinginterest, postcodingimport,
                      postbenefitcareer, postcodingcareer, attractlibraries,
                      bcyouthrate, knowmicrobit, variable, repitition, boolean, 
-                     datastructure, function, hardware])
+                     datastructure, function, hardware, coursequestionnaire])
 
 colnames = ('Courses, Post_CanDoCoding, Post_CodingInterest, '
             'Post_CodingImportance, Post_BenefitCareer, Post_CodingCareer, '
             'AttractLibraries, BC_Rating, KnowMicrobit, UnderstandVariable, '
             'UnderstandRepition, UnderstandBoolean, UnderstandDataStructure, '
-            'UnderstandFunction, UnderstandHardware').split(', ')
+            'UnderstandFunction, UnderstandHardware, CourseQuestionnaire').split(', ')
 df = pd.DataFrame(new_data.reshape(1, -1), columns=colnames)
 df.to_csv(savefile, mode='a', index=False, header=not os.path.exists(savefile))
