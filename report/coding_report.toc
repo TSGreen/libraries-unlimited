@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Computer Coding in Libraries with micro:bit and Kano computers}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}The Key Aims:}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Coding Workshops}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Workshop Details}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Participant Demographics}{9}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Feedback Results}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Summary of key findings:}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Revision of questionnaire forms}{12}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Code Club}{28}{chapter.3}
+\contentsline {chapter}{\numberline {4}Do Your Bit}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{30}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}The Key Aims:}{31}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Workshop Details}{31}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Participant Demographics}{32}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Feedback Results}{32}{section.4.3}
+\contentsline {chapter}{\numberline {5}Appendix: Questionnaires}{43}{chapter.5}
