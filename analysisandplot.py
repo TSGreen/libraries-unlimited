@@ -224,7 +224,7 @@ class FeedbackAnalysis():
         ax.xaxis.set_major_formatter(ticker.PercentFormatter(xmax=1))
         plt.legend(bbox_to_anchor=(0, 0.99, 1, .05), loc=3, ncol=legend_columns, borderaxespad=0, fontsize=15)
         plt.minorticks_on()
-        plt.figtext(0.9, 0.135, (f'Based on sample of {samplesize} participants'), fontsize=10, ha='right')
+        plt.figtext(0.9, 0.12, (f'Based on sample of {samplesize} participants'), fontsize=10, ha='right')
         pdffile = 'bar_'+figurename+'.pdf'
         pngfile = 'bar_'+figurename+'.png'
         plt.savefig(self.save_filepath/pdffile, bbox_inches='tight')
