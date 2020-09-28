@@ -1,0 +1,9 @@
+Gender,Age,Pre_KnowMicrobit,Pre_UnderstandVariable,Pre_UnderstandRepition,Pre_UnderstandBoolean,Pre_UnderstandDataStructure,Pre_UnderstandFunction,Pre_UnderstandHardware
+female,14,knownothing,no,no,no,no,yes,yes
+female,14,dontknow,yes,dontknow,no,dontknow,yes,yes
+male,11,knowlittle,yes,no,yes,no,yes,yes
+male,15,knownothing,dontknow,no,no,no,dontknow,dontknow
+female,14,knownothing,yes,dontknow,dontknow,dontknow,yes,yes
+male,14,knownothing,yes,no,no,yes,yes,yes
+male,15,knownothing,yes,dontknow,yes,yes,yes,yes
+male,13,knowlittle,yes,yes,no,yes,yes,yes

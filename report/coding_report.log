@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.11)  27 SEP 2020 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.11)  28 SEP 2020 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,17 +517,19 @@ LaTeX Warning: Text page 8 contains only floats.
 [8 <./images/rang2.jpg> <./images/_TMT7018.jpg> <./images/rang1.jpg> <./images/
 rang3.jpg> <./images/_TMT4176.jpg> <./images/_TMT7302.jpg> <./images/_TM20868.j
 pg> <./images/_TM20980.jpg>]
-<testing/gender.pdf, id=184, 350.5095pt x 242.02045pt>
-File: testing/gender.pdf Graphic file (type pdf)
-<use testing/gender.pdf>
-Package pdftex.def Info: testing/gender.pdf  used on input line 261.
+<workshop_plots/gender.pdf, id=184, 350.5095pt x 242.02045pt>
+File: workshop_plots/gender.pdf Graphic file (type pdf)
+<use workshop_plots/gender.pdf>
+Package pdftex.def Info: workshop_plots/gender.pdf  used on input line 261.
 (pdftex.def)             Requested size: 250.95476pt x 173.28333pt.
-<testing/AgeDistribution.pdf, id=186, 562.82205pt x 385.50023pt>
-File: testing/AgeDistribution.pdf Graphic file (type pdf)
-<use testing/AgeDistribution.pdf>
-Package pdftex.def Info: testing/AgeDistribution.pdf  used on input line 271.
+<workshop_plots/AgeDistribution.pdf, id=186, 562.82205pt x 385.50023pt>
+File: workshop_plots/AgeDistribution.pdf Graphic file (type pdf)
+<use workshop_plots/AgeDistribution.pdf>
+Package pdftex.def Info: workshop_plots/AgeDistribution.pdf  used on input line
+ 271.
 (pdftex.def)             Requested size: 271.86234pt x 186.20857pt.
- [9 <./testing/gender.pdf>] [10 <./testing/AgeDistribution.pdf>] [11]
+ [9 <./workshop_plots/gender.pdf>] [10 <./workshop_plots/AgeDistribution.pdf>] 
+[11]
 <images/quotes-crop.pdf, id=333, 437.635pt x 699.61375pt>
 File: images/quotes-crop.pdf Graphic file (type pdf)
 <use images/quotes-crop.pdf>
@@ -537,238 +539,243 @@ Package pdftex.def Info: images/quotes-crop.pdf  used on input line 312.
 
 LaTeX Warning: Float too large for page by 4.21912pt on input line 315.
 
-<testing/bar_WorkshopFeedback.pdf, id=334, 602.42313pt x 392.20116pt>
-File: testing/bar_WorkshopFeedback.pdf Graphic file (type pdf)
-<use testing/bar_WorkshopFeedback.pdf>
-Package pdftex.def Info: testing/bar_WorkshopFeedback.pdf  used on input line 3
-20.
+<workshop_plots/bar_WorkshopFeedback.pdf, id=334, 602.42313pt x 392.20116pt>
+File: workshop_plots/bar_WorkshopFeedback.pdf Graphic file (type pdf)
+<use workshop_plots/bar_WorkshopFeedback.pdf>
+Package pdftex.def Info: workshop_plots/bar_WorkshopFeedback.pdf  used on input
+ line 320.
 (pdftex.def)             Requested size: 355.51817pt x 231.45651pt.
-<testing/bar_CanDoCoding.pdf, id=335, 574.9298pt x 392.20116pt>
-File: testing/bar_CanDoCoding.pdf Graphic file (type pdf)
-<use testing/bar_CanDoCoding.pdf>
-Package pdftex.def Info: testing/bar_CanDoCoding.pdf  used on input line 328.
+<workshop_plots/bar_CanDoCoding.pdf, id=335, 574.9298pt x 392.20116pt>
+File: workshop_plots/bar_CanDoCoding.pdf Graphic file (type pdf)
+<use workshop_plots/bar_CanDoCoding.pdf>
+Package pdftex.def Info: workshop_plots/bar_CanDoCoding.pdf  used on input line
+ 328.
 (pdftex.def)             Requested size: 355.51817pt x 242.53383pt.
-<testing/bar_CodingInterest.pdf, id=336, 574.9298pt x 436.39752pt>
-File: testing/bar_CodingInterest.pdf Graphic file (type pdf)
-<use testing/bar_CodingInterest.pdf>
-Package pdftex.def Info: testing/bar_CodingInterest.pdf  used on input line 336
-.
+<workshop_plots/bar_CodingInterest.pdf, id=336, 574.9298pt x 436.39752pt>
+File: workshop_plots/bar_CodingInterest.pdf Graphic file (type pdf)
+<use workshop_plots/bar_CodingInterest.pdf>
+Package pdftex.def Info: workshop_plots/bar_CodingInterest.pdf  used on input l
+ine 336.
 (pdftex.def)             Requested size: 355.51817pt x 269.86449pt.
-<testing/bar_CodingImportance.pdf, id=337, 574.9298pt x 436.39752pt>
-File: testing/bar_CodingImportance.pdf Graphic file (type pdf)
-<use testing/bar_CodingImportance.pdf>
-Package pdftex.def Info: testing/bar_CodingImportance.pdf  used on input line 3
-44.
+<workshop_plots/bar_CodingImportance.pdf, id=337, 574.9298pt x 436.39752pt>
+File: workshop_plots/bar_CodingImportance.pdf Graphic file (type pdf)
+<use workshop_plots/bar_CodingImportance.pdf>
+Package pdftex.def Info: workshop_plots/bar_CodingImportance.pdf  used on input
+ line 344.
 (pdftex.def)             Requested size: 355.51817pt x 269.86449pt.
-<testing/bar_CodedBefore.pdf, id=338, 602.42313pt x 392.20116pt>
-File: testing/bar_CodedBefore.pdf Graphic file (type pdf)
-<use testing/bar_CodedBefore.pdf>
-Package pdftex.def Info: testing/bar_CodedBefore.pdf  used on input line 351.
-(pdftex.def)             Requested size: 313.69025pt x 204.22704pt.
-<testing/bar_Want_to_LearnMoreCoding.pdf, id=339, 602.42313pt x 392.20116pt>
-File: testing/bar_Want_to_LearnMoreCoding.pdf Graphic file (type pdf)
-<use testing/bar_Want_to_LearnMoreCoding.pdf>
-Package pdftex.def Info: testing/bar_Want_to_LearnMoreCoding.pdf  used on input
- line 358.
-(pdftex.def)             Requested size: 313.69025pt x 204.22704pt.
-<testing/bar_ITaccess.pdf, id=340, 602.42313pt x 414.29935pt>
-File: testing/bar_ITaccess.pdf Graphic file (type pdf)
-<use testing/bar_ITaccess.pdf>
-Package pdftex.def Info: testing/bar_ITaccess.pdf  used on input line 365.
+<retired_questions/bar_codedbefore.pdf, id=338, 603.4112pt x 392.20116pt>
+File: retired_questions/bar_codedbefore.pdf Graphic file (type pdf)
+<use retired_questions/bar_codedbefore.pdf>
+Package pdftex.def Info: retired_questions/bar_codedbefore.pdf  used on input l
+ine 351.
+(pdftex.def)             Requested size: 313.69025pt x 203.88593pt.
+<retired_questions/bar_learnmore.pdf, id=339, 603.4112pt x 392.20116pt>
+File: retired_questions/bar_learnmore.pdf Graphic file (type pdf)
+<use retired_questions/bar_learnmore.pdf>
+Package pdftex.def Info: retired_questions/bar_learnmore.pdf  used on input lin
+e 358.
+(pdftex.def)             Requested size: 313.69025pt x 203.88593pt.
+<workshop_plots/bar_ITaccess.pdf, id=340, 602.42313pt x 414.29935pt>
+File: workshop_plots/bar_ITaccess.pdf Graphic file (type pdf)
+<use workshop_plots/bar_ITaccess.pdf>
+Package pdftex.def Info: workshop_plots/bar_ITaccess.pdf  used on input line 36
+5.
 (pdftex.def)             Requested size: 418.25368pt x 287.64325pt.
-<testing/bar_UseComputersOften.png, id=341, 602.37045pt x 414.22755pt>
-File: testing/bar_UseComputersOften.png Graphic file (type png)
-<use testing/bar_UseComputersOften.png>
-Package pdftex.def Info: testing/bar_UseComputersOften.png  used on input line 
-372.
-(pdftex.def)             Requested size: 418.25368pt x 287.625pt.
-<testing/bar_VisitLibraryBefore.pdf, id=343, 602.42313pt x 414.29935pt>
-File: testing/bar_VisitLibraryBefore.pdf Graphic file (type pdf)
-<use testing/bar_VisitLibraryBefore.pdf>
-Package pdftex.def Info: testing/bar_VisitLibraryBefore.pdf  used on input line
- 380.
+<workshop_plots/bar_UseComputersOften.pdf, id=341, 602.42313pt x 414.29935pt>
+File: workshop_plots/bar_UseComputersOften.pdf Graphic file (type pdf)
+<use workshop_plots/bar_UseComputersOften.pdf>
+Package pdftex.def Info: workshop_plots/bar_UseComputersOften.pdf  used on inpu
+t line 372.
 (pdftex.def)             Requested size: 418.25368pt x 287.64325pt.
-<revisedformplots/bar_libraryvisitactivities.pdf, id=344, 603.4112pt x 392.2011
+<workshop_plots/bar_VisitLibraryBefore.pdf, id=342, 602.42313pt x 414.29935pt>
+File: workshop_plots/bar_VisitLibraryBefore.pdf Graphic file (type pdf)
+<use workshop_plots/bar_VisitLibraryBefore.pdf>
+Package pdftex.def Info: workshop_plots/bar_VisitLibraryBefore.pdf  used on inp
+ut line 380.
+(pdftex.def)             Requested size: 418.25368pt x 287.64325pt.
+<workshop_plots/bar_VisitLibrary_Activities.pdf, id=343, 602.42313pt x 392.2011
 6pt>
-File: revisedformplots/bar_libraryvisitactivities.pdf Graphic file (type pdf)
-<use revisedformplots/bar_libraryvisitactivities.pdf>
-Package pdftex.def Info: revisedformplots/bar_libraryvisitactivities.pdf  used 
-on input line 387.
-(pdftex.def)             Requested size: 418.25368pt x 271.8519pt.
-<revisedformplots/bar_libraryvisitdevices.pdf, id=345, 603.4112pt x 392.20116pt
+File: workshop_plots/bar_VisitLibrary_Activities.pdf Graphic file (type pdf)
+<use workshop_plots/bar_VisitLibrary_Activities.pdf>
+Package pdftex.def Info: workshop_plots/bar_VisitLibrary_Activities.pdf  used o
+n input line 387.
+(pdftex.def)             Requested size: 418.25368pt x 272.30074pt.
+<workshop_plots/bar_VisitLibrary_Devices.pdf, id=344, 602.42313pt x 392.20116pt
 >
-File: revisedformplots/bar_libraryvisitdevices.pdf Graphic file (type pdf)
-<use revisedformplots/bar_libraryvisitdevices.pdf>
-Package pdftex.def Info: revisedformplots/bar_libraryvisitdevices.pdf  used on 
-input line 394.
-(pdftex.def)             Requested size: 418.25368pt x 271.8519pt.
-<testing/bar_DesireLibraryVisit.pdf, id=346, 602.42313pt x 436.39752pt>
-File: testing/bar_DesireLibraryVisit.pdf Graphic file (type pdf)
-<use testing/bar_DesireLibraryVisit.pdf>
-Package pdftex.def Info: testing/bar_DesireLibraryVisit.pdf  used on input line
- 401.
+File: workshop_plots/bar_VisitLibrary_Devices.pdf Graphic file (type pdf)
+<use workshop_plots/bar_VisitLibrary_Devices.pdf>
+Package pdftex.def Info: workshop_plots/bar_VisitLibrary_Devices.pdf  used on i
+nput line 394.
+(pdftex.def)             Requested size: 418.25368pt x 272.30074pt.
+<workshop_plots/bar_DesireLibraryVisit.pdf, id=345, 602.42313pt x 436.39752pt>
+File: workshop_plots/bar_DesireLibraryVisit.pdf Graphic file (type pdf)
+<use workshop_plots/bar_DesireLibraryVisit.pdf>
+Package pdftex.def Info: workshop_plots/bar_DesireLibraryVisit.pdf  used on inp
+ut line 401.
 (pdftex.def)             Requested size: 418.25368pt x 302.98576pt.
-<revisedformplots/bar_usedevices.pdf, id=347, 603.4112pt x 392.20116pt>
-File: revisedformplots/bar_usedevices.pdf Graphic file (type pdf)
-<use revisedformplots/bar_usedevices.pdf>
-Package pdftex.def Info: revisedformplots/bar_usedevices.pdf  used on input lin
-e 409.
+<retired_questions/bar_usedevices.pdf, id=346, 603.4112pt x 392.20116pt>
+File: retired_questions/bar_usedevices.pdf Graphic file (type pdf)
+<use retired_questions/bar_usedevices.pdf>
+Package pdftex.def Info: retired_questions/bar_usedevices.pdf  used on input li
+ne 409.
 (pdftex.def)             Requested size: 418.25368pt x 271.8519pt.
-<testing/AppRatings.pdf, id=348, 523.61559pt x 603.75563pt>
-File: testing/AppRatings.pdf Graphic file (type pdf)
-<use testing/AppRatings.pdf>
-Package pdftex.def Info: testing/AppRatings.pdf  used on input line 417.
+<workshop_plots/AppRatings.pdf, id=347, 523.61559pt x 603.75563pt>
+File: workshop_plots/AppRatings.pdf Graphic file (type pdf)
+<use workshop_plots/AppRatings.pdf>
+Package pdftex.def Info: workshop_plots/AppRatings.pdf  used on input line 417.
+
 (pdftex.def)             Requested size: 376.42575pt x 434.04962pt.
-<revisedformplots/bar_kanoexp.pdf, id=349, 603.4112pt x 392.20116pt>
-File: revisedformplots/bar_kanoexp.pdf Graphic file (type pdf)
-<use revisedformplots/bar_kanoexp.pdf>
-Package pdftex.def Info: revisedformplots/bar_kanoexp.pdf  used on input line 4
-24.
+<retired_questions/bar_kanoexp.pdf, id=348, 603.4112pt x 392.20116pt>
+File: retired_questions/bar_kanoexp.pdf Graphic file (type pdf)
+<use retired_questions/bar_kanoexp.pdf>
+Package pdftex.def Info: retired_questions/bar_kanoexp.pdf  used on input line 
+424.
 (pdftex.def)             Requested size: 292.77629pt x 190.29512pt.
-<revisedformplots/bar_challenge.pdf, id=352, 603.4112pt x 414.29935pt>
-File: revisedformplots/bar_challenge.pdf Graphic file (type pdf)
-<use revisedformplots/bar_challenge.pdf>
-Package pdftex.def Info: revisedformplots/bar_challenge.pdf  used on input line
- 431.
+<retired_questions/bar_challenge.pdf, id=351, 603.4112pt x 414.29935pt>
+File: retired_questions/bar_challenge.pdf Graphic file (type pdf)
+<use retired_questions/bar_challenge.pdf>
+Package pdftex.def Info: retired_questions/bar_challenge.pdf  used on input lin
+e 431.
 (pdftex.def)             Requested size: 292.77629pt x 201.01712pt.
-[12] [13 <./images/quotes-crop.pdf>] [14 <./testing/bar_WorkshopFeedback.pdf>]
-[15 <./testing/bar_CanDoCoding.pdf>] [16 <./testing/bar_CodingInterest.pdf>]
-[17 <./testing/bar_CodingImportance.pdf>] [18 <./testing/bar_CodedBefore.pdf> <
-./testing/bar_Want_to_LearnMoreCoding.pdf
+[12] [13 <./images/quotes-crop.pdf>] [14 <./workshop_plots/bar_WorkshopFeedback
+.pdf>] [15 <./workshop_plots/bar_CanDoCoding.pdf>] [16 <./workshop_plots/bar_Co
+dingInterest.pdf>] [17 <./workshop_plots/bar_CodingImportance.pdf>] [18 <./reti
+red_questions/bar_codedbefore.pdf> <./retired_questions/bar_learnmore.pdf
 
-pdfTeX warning: pdflatex (file ./testing/bar_Want_to_LearnMoreCoding.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
->] [19 <./testing/bar_ITaccess.pdf>] [20 <./testing/bar_UseComputersOften.png>]
-[21 <./testing/bar_VisitLibraryBefore.pdf>] [22 <./revisedformplots/bar_library
-visitactivities.pdf>] [23 <./revisedformplots/bar_libraryvisitdevices.pdf>]
-[24 <./testing/bar_DesireLibraryVisit.pdf>] [25 <./revisedformplots/bar_usedevi
-ces.pdf>] [26 <./testing/AppRatings.pdf>] [27 <./revisedformplots/bar_kanoexp.p
-df> <./revisedformplots/bar_challenge.pdf
+pdfTeX warning: pdflatex (file ./retired_questions/bar_learnmore.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>] [19 <./workshop_plots/bar_ITaccess.pdf>] [20 <./workshop_plots/bar_UseComput
+ersOften.pdf>] [21 <./workshop_plots/bar_VisitLibraryBefore.pdf>] [22 <./worksh
+op_plots/bar_VisitLibrary_Activities.pdf>] [23 <./workshop_plots/bar_VisitLibra
+ry_Devices.pdf>] [24 <./workshop_plots/bar_DesireLibraryVisit.pdf>] [25 <./reti
+red_questions/bar_usedevices.pdf>] [26 <./workshop_plots/AppRatings.pdf>]
+[27 <./retired_questions/bar_kanoexp.pdf> <./retired_questions/bar_challenge.pd
+f
 
-pdfTeX warning: pdflatex (file ./revisedformplots/bar_challenge.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./retired_questions/bar_challenge.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
 >]
 Chapter 3.
-<images/codeclub.jpeg, id=1112, 475.7775pt x 237.88875pt>
+<images/codeclub.jpeg, id=1153, 475.7775pt x 237.88875pt>
 File: images/codeclub.jpeg Graphic file (type jpg)
 <use images/codeclub.jpeg>
-Package pdftex.def Info: images/codeclub.jpeg  used on input line 446.
+Package pdftex.def Info: images/codeclub.jpeg  used on input line 448.
 (pdftex.def)             Requested size: 292.77629pt x 146.39326pt.
 [28
 
  <./images/codeclub.jpeg>] [29]
 Chapter 4.
-<doyourbit/DYBlogo.pdf, id=1121, 672.5125pt x 159.59625pt>
+<doyourbit/DYBlogo.pdf, id=1162, 672.5125pt x 159.59625pt>
 File: doyourbit/DYBlogo.pdf Graphic file (type pdf)
 <use doyourbit/DYBlogo.pdf>
-Package pdftex.def Info: doyourbit/DYBlogo.pdf  used on input line 469.
+Package pdftex.def Info: doyourbit/DYBlogo.pdf  used on input line 473.
 (pdftex.def)             Requested size: 292.77629pt x 69.4798pt.
 [30
 
  <./doyourbit/DYBlogo.pdf>]
-Overfull \hbox (10.03418pt too wide) in paragraph at lines 503--518
+Overfull \hbox (10.03418pt too wide) in paragraph at lines 507--522
  [][] 
  []
 
-<doyourbit/dyb_coxsbazar_s_22.jpg, id=1131, 2055.68pt x 1370.11874pt>
+<doyourbit/dyb_coxsbazar_s_22.jpg, id=1172, 2055.68pt x 1370.11874pt>
 File: doyourbit/dyb_coxsbazar_s_22.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_22.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_22.jpg  used on input line 5
-35.
+39.
 (pdftex.def)             Requested size: 192.39949pt x 128.21834pt.
-<doyourbit/dyb_coxsbazar_s_17.jpg, id=1132, 2055.68pt x 1608.0075pt>
+<doyourbit/dyb_coxsbazar_s_17.jpg, id=1173, 2055.68pt x 1608.0075pt>
 File: doyourbit/dyb_coxsbazar_s_17.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_17.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_17.jpg  used on input line 5
-39.
+43.
 (pdftex.def)             Requested size: 192.39949pt x 150.48044pt.
-<doyourbit/dyb_coxsbazar_s_23.jpg, id=1133, 2055.68pt x 1370.11874pt>
+<doyourbit/dyb_coxsbazar_s_23.jpg, id=1174, 2055.68pt x 1370.11874pt>
 File: doyourbit/dyb_coxsbazar_s_23.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_23.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_23.jpg  used on input line 5
-44.
+48.
 (pdftex.def)             Requested size: 192.39949pt x 128.21834pt.
-<doyourbit/dyb_coxsbazar_s_25.jpg, id=1134, 2055.68pt x 1370.11874pt>
+<doyourbit/dyb_coxsbazar_s_25.jpg, id=1175, 2055.68pt x 1370.11874pt>
 File: doyourbit/dyb_coxsbazar_s_25.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_25.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_25.jpg  used on input line 5
-48.
+52.
 (pdftex.def)             Requested size: 192.39949pt x 128.21834pt.
-<doyourbit/dyb_coxsbazar_s_28.jpg, id=1135, 2055.68pt x 1370.11874pt>
+<doyourbit/dyb_coxsbazar_s_28.jpg, id=1176, 2055.68pt x 1370.11874pt>
 File: doyourbit/dyb_coxsbazar_s_28.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_28.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_28.jpg  used on input line 5
-54.
+58.
 (pdftex.def)             Requested size: 192.39949pt x 128.21834pt.
-<doyourbit/dyb_coxsbazar_s_32.jpg, id=1136, 2055.68pt x 1248.665pt>
+<doyourbit/dyb_coxsbazar_s_32.jpg, id=1177, 2055.68pt x 1248.665pt>
 File: doyourbit/dyb_coxsbazar_s_32.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_32.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_32.jpg  used on input line 5
-58.
+62.
 (pdftex.def)             Requested size: 192.39949pt x 116.85246pt.
-<doyourbit/dyb_coxsbazar_s_40.jpg, id=1137, 2055.68pt x 1370.11874pt>
+<doyourbit/dyb_coxsbazar_s_40.jpg, id=1178, 2055.68pt x 1370.11874pt>
 File: doyourbit/dyb_coxsbazar_s_40.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_40.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_40.jpg  used on input line 5
-63.
+67.
 (pdftex.def)             Requested size: 192.39949pt x 128.21834pt.
-<doyourbit/dyb_coxsbazar_s_41.jpg, id=1138, 2055.68pt x 1370.11874pt>
+<doyourbit/dyb_coxsbazar_s_41.jpg, id=1179, 2055.68pt x 1370.11874pt>
 File: doyourbit/dyb_coxsbazar_s_41.jpg Graphic file (type jpg)
 <use doyourbit/dyb_coxsbazar_s_41.jpg>
 Package pdftex.def Info: doyourbit/dyb_coxsbazar_s_41.jpg  used on input line 5
-67.
+71.
 (pdftex.def)             Requested size: 192.39949pt x 128.21834pt.
 [31]
-<doyourbit/pie_gender.pdf, id=1145, 362.55452pt x 244.7544pt>
+<doyourbit/pie_gender.pdf, id=1186, 362.55452pt x 244.7544pt>
 File: doyourbit/pie_gender.pdf Graphic file (type pdf)
 <use doyourbit/pie_gender.pdf>
-Package pdftex.def Info: doyourbit/pie_gender.pdf  used on input line 580.
+Package pdftex.def Info: doyourbit/pie_gender.pdf  used on input line 584.
 (pdftex.def)             Requested size: 250.95476pt x 169.41475pt.
-<doyourbit/AgeDistribution.pdf, id=1147, 403.56711pt x 283.374pt>
+<doyourbit/AgeDistribution.pdf, id=1188, 403.56711pt x 283.374pt>
 File: doyourbit/AgeDistribution.pdf Graphic file (type pdf)
 <use doyourbit/AgeDistribution.pdf>
-Package pdftex.def Info: doyourbit/AgeDistribution.pdf  used on input line 590.
+Package pdftex.def Info: doyourbit/AgeDistribution.pdf  used on input line 594.
 
 (pdftex.def)             Requested size: 292.77629pt x 205.5814pt.
  [32]
-<doyourbit/bar_workshopexp.pdf, id=1165, 603.4112pt x 392.20116pt>
+<doyourbit/bar_workshopexp.pdf, id=1206, 603.4112pt x 392.20116pt>
 File: doyourbit/bar_workshopexp.pdf Graphic file (type pdf)
 <use doyourbit/bar_workshopexp.pdf>
-Package pdftex.def Info: doyourbit/bar_workshopexp.pdf  used on input line 630.
+Package pdftex.def Info: doyourbit/bar_workshopexp.pdf  used on input line 634.
 
 (pdftex.def)             Requested size: 355.51817pt x 231.0735pt.
-<doyourbit/bar_candocoding.pdf, id=1166, 575.55713pt x 392.20116pt>
+<doyourbit/bar_candocoding.pdf, id=1207, 575.55713pt x 392.20116pt>
 File: doyourbit/bar_candocoding.pdf Graphic file (type pdf)
 <use doyourbit/bar_candocoding.pdf>
-Package pdftex.def Info: doyourbit/bar_candocoding.pdf  used on input line 638.
+Package pdftex.def Info: doyourbit/bar_candocoding.pdf  used on input line 642.
 
 (pdftex.def)             Requested size: 355.51817pt x 242.27051pt.
-<doyourbit/bar_codinginterest.pdf, id=1167, 575.55713pt x 436.39752pt>
+<doyourbit/bar_codinginterest.pdf, id=1208, 575.55713pt x 436.39752pt>
 File: doyourbit/bar_codinginterest.pdf Graphic file (type pdf)
 <use doyourbit/bar_codinginterest.pdf>
 Package pdftex.def Info: doyourbit/bar_codinginterest.pdf  used on input line 6
-46.
+50.
 (pdftex.def)             Requested size: 355.51817pt x 269.57149pt.
-<doyourbit/bar_techsolve.pdf, id=1168, 575.55713pt x 392.20116pt>
+<doyourbit/bar_techsolve.pdf, id=1209, 575.55713pt x 392.20116pt>
 File: doyourbit/bar_techsolve.pdf Graphic file (type pdf)
 <use doyourbit/bar_techsolve.pdf>
-Package pdftex.def Info: doyourbit/bar_techsolve.pdf  used on input line 654.
+Package pdftex.def Info: doyourbit/bar_techsolve.pdf  used on input line 658.
 (pdftex.def)             Requested size: 418.25368pt x 285.01779pt.
-<doyourbit/bar_knowsdgs.pdf, id=1169, 575.55713pt x 392.20116pt>
+<doyourbit/bar_knowsdgs.pdf, id=1210, 575.55713pt x 392.20116pt>
 File: doyourbit/bar_knowsdgs.pdf Graphic file (type pdf)
 <use doyourbit/bar_knowsdgs.pdf>
-Package pdftex.def Info: doyourbit/bar_knowsdgs.pdf  used on input line 661.
+Package pdftex.def Info: doyourbit/bar_knowsdgs.pdf  used on input line 665.
 (pdftex.def)             Requested size: 418.25368pt x 285.01779pt.
-<doyourbit/bar_knowsdg1415.pdf, id=1170, 575.55713pt x 392.20116pt>
+<doyourbit/bar_knowsdg1415.pdf, id=1211, 575.55713pt x 392.20116pt>
 File: doyourbit/bar_knowsdg1415.pdf Graphic file (type pdf)
 <use doyourbit/bar_knowsdg1415.pdf>
-Package pdftex.def Info: doyourbit/bar_knowsdg1415.pdf  used on input line 668.
+Package pdftex.def Info: doyourbit/bar_knowsdg1415.pdf  used on input line 672.
 
 (pdftex.def)             Requested size: 418.25368pt x 285.01779pt.
-<doyourbit/bar_sdgimportant.pdf, id=1171, 575.55713pt x 436.39752pt>
+<doyourbit/bar_sdgimportant.pdf, id=1212, 575.55713pt x 436.39752pt>
 File: doyourbit/bar_sdgimportant.pdf Graphic file (type pdf)
 <use doyourbit/bar_sdgimportant.pdf>
-Package pdftex.def Info: doyourbit/bar_sdgimportant.pdf  used on input line 675
+Package pdftex.def Info: doyourbit/bar_sdgimportant.pdf  used on input line 679
 .
 (pdftex.def)             Requested size: 418.25368pt x 317.13588pt.
  [33] [34 <./doyourbit/dyb_coxsbazar_s_22.jpg> <./doyourbit/dyb_coxsbazar_s_17.
@@ -788,80 +795,80 @@ Chapter 5.
 
 pdfTeX warning: pdflatex (file ./images/QuestionnaireP1.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<images/QuestionnaireP1.pdf, id=1564, 597.6729pt x 844.83629pt>
+<images/QuestionnaireP1.pdf, id=1605, 597.6729pt x 844.83629pt>
 File: images/QuestionnaireP1.pdf Graphic file (type pdf)
 <use images/QuestionnaireP1.pdf>
-Package pdftex.def Info: images/QuestionnaireP1.pdf  used on input line 723.
+Package pdftex.def Info: images/QuestionnaireP1.pdf  used on input line 727.
 (pdftex.def)             Requested size: 409.88681pt x 579.4055pt.
 
-LaTeX Warning: Float too large for page by 32.67519pt on input line 726.
+LaTeX Warning: Float too large for page by 32.67519pt on input line 730.
 
 
 
 pdfTeX warning: pdflatex (file ./images/QuestionnaireP2.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<images/QuestionnaireP2.pdf, id=1565, 597.6729pt x 844.83629pt>
+<images/QuestionnaireP2.pdf, id=1606, 597.6729pt x 844.83629pt>
 File: images/QuestionnaireP2.pdf Graphic file (type pdf)
 <use images/QuestionnaireP2.pdf>
-Package pdftex.def Info: images/QuestionnaireP2.pdf  used on input line 732.
+Package pdftex.def Info: images/QuestionnaireP2.pdf  used on input line 736.
 (pdftex.def)             Requested size: 409.88681pt x 579.4055pt.
 
-LaTeX Warning: Float too large for page by 32.67519pt on input line 735.
+LaTeX Warning: Float too large for page by 32.67519pt on input line 739.
 
 
 
 pdfTeX warning: pdflatex (file ./doyourbit/Questionnaire_DoYourBit_Pre_bengali.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<doyourbit/Questionnaire_DoYourBit_Pre_bengali.pdf, id=1566, 597.6729pt x 844.8
+<doyourbit/Questionnaire_DoYourBit_Pre_bengali.pdf, id=1607, 597.6729pt x 844.8
 3629pt>
 File: doyourbit/Questionnaire_DoYourBit_Pre_bengali.pdf Graphic file (type pdf)
 
 <use doyourbit/Questionnaire_DoYourBit_Pre_bengali.pdf>
 Package pdftex.def Info: doyourbit/Questionnaire_DoYourBit_Pre_bengali.pdf  use
-d on input line 739.
+d on input line 743.
 (pdftex.def)             Requested size: 409.88681pt x 579.4055pt.
 
-LaTeX Warning: Float too large for page by 32.67519pt on input line 742.
+LaTeX Warning: Float too large for page by 32.67519pt on input line 746.
 
 
 
 pdfTeX warning: pdflatex (file ./doyourbit/Questionnaire_DoYourBit_Post_bengali
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<doyourbit/Questionnaire_DoYourBit_Post_bengali.pdf, id=1567, 597.6729pt x 844.
+<doyourbit/Questionnaire_DoYourBit_Post_bengali.pdf, id=1608, 597.6729pt x 844.
 83629pt>
 File: doyourbit/Questionnaire_DoYourBit_Post_bengali.pdf Graphic file (type pdf
 )
 <use doyourbit/Questionnaire_DoYourBit_Post_bengali.pdf>
 Package pdftex.def Info: doyourbit/Questionnaire_DoYourBit_Post_bengali.pdf  us
-ed on input line 748.
+ed on input line 752.
 (pdftex.def)             Requested size: 409.88681pt x 579.4055pt.
 
-LaTeX Warning: Float too large for page by 32.67519pt on input line 751.
+LaTeX Warning: Float too large for page by 32.67519pt on input line 755.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 753.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 757.
 [43
 
 ] [44 <./images/QuestionnaireP1.pdf>] [45 <./images/QuestionnaireP2.pdf>]
 [46 <./doyourbit/Questionnaire_DoYourBit_Pre_bengali.pdf>] [47 <./doyourbit/Que
 stionnaire_DoYourBit_Post_bengali.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 753.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 757.
  (./coding_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 753.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 753.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 757.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 757.
 Package rerunfilecheck Info: File `coding_report.out' has not changed.
 (rerunfilecheck)             Checksum: C48E2A32A58C2E01890D79E83D69C132;1168.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 753.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 757.
  ) 
 Here is how much of TeX's memory you used:
- 8050 strings out of 492982
- 127845 string characters out of 6134896
- 340942 words of memory out of 5000000
+ 8051 strings out of 492982
+ 128216 string characters out of 6134896
+ 340950 words of memory out of 5000000
  11372 multiletter control sequences out of 15000+600000
  9316 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -873,10 +880,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on coding_report.pdf (48 pages, 10260312 bytes).
+Output written on coding_report.pdf (48 pages, 9966194 bytes).
 PDF statistics:
- 1893 PDF objects out of 2073 (max. 8388607)
- 778 compressed objects within 8 object streams
+ 1934 PDF objects out of 2073 (max. 8388607)
+ 783 compressed objects within 8 object streams
  105 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

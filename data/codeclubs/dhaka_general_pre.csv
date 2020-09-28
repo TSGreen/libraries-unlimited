@@ -1,0 +1,9 @@
+,Unnamed: 0,Gender,Age,Pre_CanDoCoding,Pre_CodingInterest,Pre_CodingImportance,Pre_BenefitCareer,Pre_CodingCareer
+0,0,female,14,dontknow,somewhat,very,yes,yes
+1,1,female,14,yes,somewhat,very,yes,yes
+2,2,male,11,yes,somewhat,unsure,yes,dontknow
+3,3,male,15,dontknow,very,very,yes,yes
+4,4,female,14,yes,very,very,yes,yes
+5,5,male,14,yes,very,very,yes,yes
+6,6,male,15,yes,very,somewhat,yes,yes
+7,7,male,13,yes,somewhat,somewhat,yes,dontknow

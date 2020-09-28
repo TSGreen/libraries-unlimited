@@ -20,9 +20,9 @@ from pathlib import Path
 
 from dataentry import DataEntry
 
-district = 'FAKE'   ## EDIT ME
+district = 'TEST'   ## EDIT ME
 
-savefile = Path.cwd().joinpath('data', 'workshops', district+'.csv')
+savedatafile = Path.cwd().joinpath('data', 'workshops', district+'.csv')
 
 prompt = DataEntry()
 
@@ -58,7 +58,7 @@ codingint = prompt.notatall_to_very_questions('Q11: Now, how interested are you 
 codingimport = prompt.notatall_to_very_questions ('Q12: Now, how important is programming to your life?')   
                                    
 workshopex = prompt.misc_question('Q13: Overall experience of workshop?',
-                                  options=['vg', 'g', 'ok' 'b'],
+                                  options=['vg', 'g', 'ok', 'b'],
                                   response_map={'vg': 'verygood', 'g': 'good', 'ok': 'okay', 'b': 'bad'},
                                   instructions='\nEnter:\nvg (="Very Good")\ng (="Good")\nok (="Okay")\nb =("Bad")?\n\n')
 
@@ -78,7 +78,7 @@ colnames = ('Gender, Age, Pre_CanDoCoding, Pre_CodingImportance, Pre_CodingInter
             'Post_CanDoCoding, Post_CodingInterest, Post_CodingImportance, WorkshopFeedback, ' 
             'Scratch_rating, Microbit_rating, MakeArt_rating, MakePong_rating, '
             'KanoCode_rating, MakeSnake_rating, HackMinecraft_rating, '
-            'TerminalQuest_rating, WillVisitLibrary, WillUseDevices').split(', ')
+            'TerminalQuest_rating, VisitLibrary_Activities, VisitLibrary_Devices').split(', ')
 
 df = pd.DataFrame(new_data.reshape(1,-1), columns=colnames)
 columns = ('Scratch_rating, Microbit_rating, MakeArt_rating, MakePong_rating, '
@@ -86,4 +86,4 @@ columns = ('Scratch_rating, Microbit_rating, MakeArt_rating, MakePong_rating, '
            'TerminalQuest_rating').split(', ')
 for col in columns:
     df[col].replace({'66':'not_rated', '99':'not_used'}, inplace = True)
-df.to_csv(savefile, mode='a', index=False, header=not os.path.exists(savefile))
+df.to_csv(savedatafile, mode='a', index=False, header=not os.path.exists(savedatafile))

@@ -1,0 +1,7 @@
+male	 15	 2	 4	99	5	99	4	99	99	3	 okay	 none	 yes	 rarely	 yes	 home	 veryregularly	 yes 
+female	 9	 3	 99	99	66	99	99	99	99	99	 verygood	 none	 yes	 never	 yes	 no	 sometimes	 maybe 
+male	 10	 3	 99	99	66	99	99	99	99	99	 verygood	 none	 yes	 never	 yes	 home	 veryregularly	 yes 
+male	 10	 3	 99	99	5	99	99	99	99	99	 verygood	 none	 yes	 never	 yes	 no	 never	 yes 
+male	 10	 1	 99	99	99	99	99	99	99	5	 good	 other	 yes	 sometimes	 yes	 home	 veryregularly	 yes 
+female	 15	 3	 99	99	4	99	99	99	99	99	 good	 none	 yes	 sometimes	 yes	 school	 veryregularly	 yes 
+female	 15	 3	 99	99	4	99	99	99	99	99	 good	 none	 yes	 rarely	 yes	 home	 veryregularly	 yes 
