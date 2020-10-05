@@ -2,7 +2,7 @@
 Script for data entry of the workshop questionnaires.
 
 This file only works in conjunction with the dataentry.py file located in the 
-same directory. 
+same directory.
 
 To use this script, edit the district variable to match the library you are 
 uploading data for. Then follow the prompts for user input when the script is run. 
@@ -10,13 +10,13 @@ uploading data for. Then follow the prompts for user input when the script is ru
 The data is saved to a csv at the end of this script. 
 
 If an incorrect error is added, use ctrl-c to keyboard interrupt the script
-and start over. 
+and start over.
 """
 
 import numpy as np
 import pandas as pd
 import os
-from pathlib import Path 
+from pathlib import Path
 
 from dataentry import DataEntry
 

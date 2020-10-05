@@ -27,6 +27,7 @@ savefile = Path.cwd().joinpath('report', 'workshop_plots')
 datafile = Path.cwd().joinpath('data', 'workshops')
 
 workshops.read_datafiles(data_filepath=datafile, save_filepath=savefile)
+workshops.create_database('data/WORKSHOPS_COMBINED_DATA.csv')
 
 workshops.gender('Gender')
 

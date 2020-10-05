@@ -27,6 +27,8 @@ savefile = Path.cwd().joinpath('report', 'codeclub_plots')
 datafile = Path.cwd().joinpath('data', 'codeclubs')
 
 codeclubs.read_datafiles(data_filepath=datafile, save_filepath=savefile)
+codeclubs.create_database('data/CODECLUBS_COMBINED_DATA.csv')
+
 
 codeclubs.gender('Gender')
 

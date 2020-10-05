@@ -20,7 +20,7 @@ import matplotlib.ticker as ticker
 
 
 class FeedbackAnalysis():
-    """ 
+    """
     Read, analyse and plot all the data collected from questionnaires at
     LU coding events.
 
@@ -81,6 +81,11 @@ class FeedbackAnalysis():
         print(f'\nThe following data files have been read and included:\n\n{districts}\n')
         print(f'If you expect to see another file here, please check you have added it to the location "{self.data_filepath}"')
         print(f'\nTotal number of participants to date: {self.total_participants}.\n\n')
+
+    def create_database(self, file):
+        """ Collate all the datafiles into one file. """
+        self.dataframe.to_csv(file)
+        
         #print(f'Gender details:\n{df.Gender.value_counts()}')
 
     def question(self, question, response_type, prepost_question, title):
